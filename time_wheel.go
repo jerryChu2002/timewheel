@@ -13,6 +13,7 @@ type taskElement struct {
 	key   string
 }
 
+// 时间轮实体类
 type TimeWheel struct {
 	sync.Once
 	interval     time.Duration
